@@ -1,0 +1,1 @@
+from CoolDictionary.Dict import Dictionary
