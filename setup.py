@@ -2,13 +2,14 @@ from distutils.core import setup
 setup(
   name = 'CoolDictionary',         # How you named your package folder (MyLib)
   packages = ['CoolDictionary'],   # Chose the same as "name"
+  package_dir = {'': "D:\Max/Python/React.js/1-My-PIP-packages"},
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'First pip package so just testing things',   # Give a short description about your library
   author = 'Max Hitchings',                   # Type in your name
   author_email = 'max.hitchings@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/Max-Hitchings/CoolDictionary-PIP',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Max-Hitchings/CoolDictionary-PIP/archive/v0.1-alpha.tar.gz',    # I explain this later on
+  url = 'https://github.com/Max-Hitchings/CoolDictionary',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/Max-Hitchings/CoolDictionary/archive/v0.1-alpha.tar.gz',    # I explain this later on
   keywords = ['CoolDictionary', 'Dictionary', 'Cool'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
